@@ -16,6 +16,10 @@ export default {
       startTime: 'เวลาเริ่มต้น',
       endDate: 'วันที่สิ้นสุด',
       endTime: 'เวลาสิ้นสุด',
+      prevYear: 'Previous Year', // to be translated
+      nextYear: 'Next Year', // to be translated
+      prevMonth: 'Previous Month', // to be translated
+      nextMonth: 'Next Month', // to be translated
       year: 'ปี',
       month1: 'มกราคม',
       month2: 'กุมภาพันธ์',
@@ -62,7 +66,9 @@ export default {
     },
     cascader: {
       noMatch: 'ไม่พบข้อมูลที่ตรงกัน',
-      placeholder: 'เลือก'
+      loading: 'กำลังโหลด',
+      placeholder: 'เลือก',
+      noData: 'ไม่พบข้อมูล'
     },
     pagination: {
       goto: 'ไปที่',
@@ -77,6 +83,7 @@ export default {
       error: 'คุณป้อนข้อมูลไม่ถูกต้อง'
     },
     upload: {
+      deleteTip: 'press delete to remove', // to be translated
       delete: 'ลบ',
       preview: 'ตัวอย่าง',
       continue: 'ทำต่อ'
@@ -98,6 +105,12 @@ export default {
       filterPlaceholder: 'Enter keyword', // to be translated
       noCheckedFormat: '{total} items', // to be translated
       hasCheckedFormat: '{checked}/{total} checked' // to be translated
+    },
+    image: {
+      error: 'FAILED' // to be translated
+    },
+    pageHeader: {
+      title: 'Back' // to be translated
     }
   }
 };
